@@ -1,0 +1,151 @@
+body {
+  font-family: Manrope;
+  background-color: #f1f5fe;
+}
+
+.header {
+  text-align: center;
+  margin-top: 67px;
+}
+
+h1 h2 {
+  font-weight: 800;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  margin-top: 266px;
+  margin-left: 350px;
+  margin-right: 350px;
+  margin-bottom: 137px;
+  border-radius: 8px;
+}
+
+.pageviews {
+  color: hsl(225, 20%, 60%);
+  margin: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.returns {
+  margin: 40px;
+}
+
+.slider {
+  width: 80%;
+  -webkit-appearance: none;
+  background: hsl(174, 77%, 80%);
+  border-radius: 8px;
+  height: 15px;
+}
+
+.billing {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: hsl(225, 20%, 60%);
+  font-size: 15px;
+}
+
+.discount {
+  font-size: 10px;
+  background-color: hsl(14, 92%, 95%);
+  color: hsl(15, 100%, 70%);
+  margin: 20px;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.toggle {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: grey;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggle:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+input:checked + .toggle {
+  background-color: grey;
+}
+
+input:focus + .toggle {
+  box-shadow: 0 0 1px grey;
+}
+
+input:checked + .toggle:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.toggle.round {
+  border-radius: 34px;
+}
+
+.toggle.round:before {
+  border-radius: 50%;
+}
+.list {
+  list-style: none;
+  color: hsl(225, 20%, 60%);
+  text-align: left;
+  font-size: 15px;
+}
+
+.changes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 40px;
+}
+
+.trial-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.trial {
+  background-color: hsl(227, 35%, 25%);
+  color: hsl(225, 20%, 60%);
+  height: fit-content;
+  width: 200px;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50px;
+  font-family: Manrope;
+}
