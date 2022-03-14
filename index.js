@@ -46,5 +46,15 @@ slider.addEventListener("change", (event) =>
     
 });
 
-const toggleElement = document.getElementById("toggle");
+// const toggleElement = document.getElementById("toggle");
 
+// toggleElement.addEventListener("change", () {
+//     if (this.checked) {
+//         returns ="£6";
+//         returns ="£9";
+//         returns ="£12";
+//         returns ="£18";
+//         returns ="£27";
+
+//         toggleElement.innerText = returns;
+// });

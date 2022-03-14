@@ -6,6 +6,7 @@ body {
 .header {
   text-align: center;
   margin-top: 67px;
+  color: hsl(227, 35%, 25%);
 }
 
 h1 h2 {
@@ -15,11 +16,16 @@ h1 h2 {
 .container {
   text-align: center;
   background-color: white;
-  margin-top: 266px;
+  margin-top: 100px;
   margin-left: 350px;
   margin-right: 350px;
   margin-bottom: 137px;
   border-radius: 8px;
+}
+
+.changes {
+  display: flex;
+  flex-direction: row;
 }
 
 .pageviews {
@@ -141,6 +147,9 @@ input:checked + .toggle:before {
   justify-content: space-between;
 }
 
+.tick {
+  margin-right: 15px;
+}
 .trial {
   background-color: hsl(227, 35%, 25%);
   color: hsl(225, 20%, 60%);
